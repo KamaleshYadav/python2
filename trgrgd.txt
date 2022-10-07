@@ -1,0 +1,50 @@
+JobMaster
+Id int primary key identity column on
+Title varchar(200)
+Created_dt  datetime
+Created_by Varchar
+Modified_dt  datetime
+Modified_by Varchar
+Isctive bit
+
+
+JobSingleDetails
+Column
+Id int primary key identity column on
+JobMasterId int
+Published on: April 14, 2019 datetime
+Vacancy: 20 int 
+Employment Status: Full-time varchar(200)
+Experience: 2 to 3 year(s) varchar(200)
+Job Location: New ork City varchar(200)
+Salary: $60k - $100k varchar(200)
+Gender: Any varchar(200)
+Application Deadline: April 28, 2019 datetime
+Job Description varchar (max)
+Created_dt  datetime
+Created_by Varchar
+Modified_dt  datetime
+Modified_by Varchar
+Isctive bit
+
+
+
+JobSingleResponsibilities
+Id int primary key identity column on
+JobMasterId int
+Description varchar (max)
+Created_dt  datetime
+Created_by Varchar
+Modified_dt  datetime
+Modified_by Varchar
+Isctive bit
+
+JobSingleEducationExperience
+Id int primary key identity column on
+JobMasterId int
+Description varchar (max)
+Created_dt  datetime
+Created_by Varchar
+I  datetime
+Modified_by Varchar
+Isctive bit
